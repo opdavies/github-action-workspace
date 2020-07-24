@@ -1,0 +1,9 @@
+name: workspace
+description: Installs the workspace command line utility for use in GitHub Actions.
+runs:
+  using: docker
+  image: Dockerfile
+inputs:
+  args:
+    description: The arguments to pass to the ws command.
+    required: true
